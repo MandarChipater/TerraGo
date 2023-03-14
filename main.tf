@@ -19,7 +19,7 @@ resource "google_compute_instance" "vm_instance" {
   machine_type = "f1-micro"
   boot_disk {
     initialize_params {
-      image = "Debian GNU/Linux 11 (bullseye)"
+      image = "debian-10-buster-v20210512"
     }
   }    
   network_interface {
