@@ -8,9 +8,9 @@ terraform {
 }
 
 provider "google" {
-  credentials = file("/home/coditas/Desktop/GoCD/pt-development-220816-d22674d2763d.json")
+  credentials = file("/home/coditas/Desktop/GoCD/.json")
 
-  project = "pt-development-220816"
+  project = ""
   region  = "us-central1"
   zone    = "us-central1-c"
 }
